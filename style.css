@@ -38,14 +38,13 @@ a,
 
 a {
     text-decoration: none;
+    padding-bottom: 4px;
     /* Border bottom with transparency to stop page elements moving when border is applied on hover*/
     border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
 a:hover {
     border-bottom: 2px solid #fff;
-
-    
 }
 
 .hero {
@@ -87,6 +86,7 @@ button {
     border: 2px solid #3882f6;
     outline: none;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 button:hover {
@@ -94,12 +94,10 @@ button:hover {
     border-color: #fff;
 }
 
-
 .info {
     display: flex;
     justify-content: center;
     padding: 100px 10%;
-
 }
 
 .wrapper {
@@ -119,19 +117,92 @@ button:hover {
 .items {
     display: flex;
     text-align: center;
-    gap: 40px;  
+    gap: 40px;
 }
 
 .item {
-    border: 4px solid #3882f6;
     padding: 12px;
-    border-radius: 8px;
 }
 
-.one, .two, .three, .four {
+.item p {
+    margin-top: 14px;
+    color: #6d6d6d;
+}
+
+.one,
+.two,
+.three,
+.four {
     width: 150px;
     height: 150px;
-    background-image: url(./img/undraw_online_test_re_kyfx.svg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.one{
+    background-image: url(./img/undraw_design_data_re_0s26.svg);
+}
+.two{
+    background-image: url(./img/undraw_file_manager_re_ms29\ \(1\).svg);
+}
+.three{
+    background-image: url(./img/undraw_ideas_re_7twj.svg);
+}
+.four{
+    background-image: url(./img/undraw_my_password_re_ydq7.svg);
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 10%;
+}
+.quote-text {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+}
+.quote-author {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.cta {
+    margin: 100px 10%;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 36px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    color: #f9faf8;
+}
+
+.cta-text p {
+    font-size: 12px;
+}
+
+.inverse-btn {
+    color: #fff;
+    font-weight: bold;
+    background-color: #3882f6;
+    padding: 10px 32px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    outline: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.inverse-btn:hover{
+    background-color: #fff;
+    color: #3882f6;
 }
