@@ -60,6 +60,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: start;
+    justify-content: center;
     gap: 20px;
 }
 .right {
@@ -129,7 +130,6 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .item p {
@@ -147,16 +147,16 @@ button:hover {
     background-repeat: no-repeat;
 }
 
-.one{
+.one {
     background-image: url(./img/undraw_design_data_re_0s26.svg);
 }
-.two{
-    background-image: url(./img/undraw_file_manager_re_ms29\ \(1\).svg);
+.two {
+    background-image: url(./img/undraw_file_manager_re_ms29\\(1\).svg);
 }
-.three{
+.three {
     background-image: url(./img/undraw_ideas_re_7twj.svg);
 }
-.four{
+.four {
     background-image: url(./img/undraw_my_password_re_ydq7.svg);
 }
 
@@ -211,7 +211,7 @@ button:hover {
     cursor: pointer;
 }
 
-.inverse-btn:hover{
+.inverse-btn:hover {
     background-color: #fff;
     color: #3882f6;
 }
@@ -229,8 +229,7 @@ footer p {
     font-size: 12px;
 }
 
-@media screen and (max-width: 900px){
-
+@media screen and (max-width: 900px) {
     .logo {
         font-size: 10px;
     }
@@ -240,7 +239,7 @@ footer p {
     }
 
     .right {
-       display: none;
+        display: none;
     }
 
     .quote-text {
