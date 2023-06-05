@@ -206,3 +206,16 @@ button:hover {
     background-color: #fff;
     color: #3882f6;
 }
+
+footer {
+    background-color: #1f2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #f9faf8;
+    font-size: 12px;
+}
